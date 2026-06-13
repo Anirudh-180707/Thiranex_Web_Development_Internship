@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - E-Commerce Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                <h1>TechStore</h1>
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#products">
+                        Products
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cart.html">
+                        Cart
+                        (
+                        <span id="cart-count">
+                            0
+                        </span>
+                        )
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h2>
+                Welcome to TechStore
+            </h2>
+
+            <p>
+                Discover premium electronics,
+                accessories, and wearables at
+                affordable prices.
+            </p>
+
+            <a href="#products">
+    <button class="hero-btn">
+        Shop Now
+    </button>
+</a>
+
+        </div>
+
+    </section>
+
+    <!-- Product Section -->
+
+    <section
+        id="products"
+        class="products-section">
+
+<h2 class="section-title">
+    Featured Products
+</h2>
+
+<div class="filters">
+
+<select id="category-filter">
+
+<option value="all">
+🛒 All Categories
+</option>
+
+<option value="Electronics">
+💻 Electronics
+</option>
+
+<option value="Accessories">
+🎧 Accessories
+</option>
+
+<option value="Wearables">
+⌚ Wearables
+</option>
+
+</select>
+
+</div>
+
+        <div
+            id="product-container"
+            class="product-grid">
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 TechStore.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
