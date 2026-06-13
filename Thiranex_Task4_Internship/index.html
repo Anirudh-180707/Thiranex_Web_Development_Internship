@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🌤 Weather Dashboard</h1>
+
+    <p class="subtitle">
+        Get real-time weather information for major cities.
+    </p>
+
+    <div class="search-section">
+
+        <select id="citySelect">
+            <option value="">Select a City</option>
+
+            <option value="Chennai">Chennai</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Kolkata">Kolkata</option>
+
+            <option value="London">London</option>
+            <option value="New York">New York</option>
+            <option value="Tokyo">Tokyo</option>
+            <option value="Dubai">Dubai</option>
+        </select>
+
+        <button id="searchBtn">Get Weather</button>
+
+    </div>
+
+    <div id="weatherContainer"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
